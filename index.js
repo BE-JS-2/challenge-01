@@ -8,6 +8,7 @@ console.log(`
     by: Mohammad Khoirul Anam
     --------------------------
 `);
+
 console.log('Silahkan pilih operasi di bawah ini: ');
 const listOperasi = daftarOperasi.map(
     (op) => `Operasi ${op.operasi} gunakan keyword: ${op.operator}`
